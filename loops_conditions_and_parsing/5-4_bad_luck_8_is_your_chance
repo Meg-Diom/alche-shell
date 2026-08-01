@@ -3,9 +3,9 @@
 i=0
 while [ "$i" -lt 10 ]; do
     echo "Best School"
-    if [ "$i" == 2 ]; then
+    if [ "$i" == 4 ]; then
         echo "bad luck" 
-    elif [ "$i" == 6 ]; then 
+    elif [ "$i" == 8 ]; then 
         echo "good luck"
     else
         :
