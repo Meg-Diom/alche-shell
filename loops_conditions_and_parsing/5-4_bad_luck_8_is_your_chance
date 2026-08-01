@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#This loop prints goodluck abd bad luck at position 4 and 8
+i=0
+while [ "$i" -lt 10 ]; do
+    echo "Best School"
+    if [ "$i" == 2 ]; then
+        echo "bad luck" 
+    elif [ "$i" == 6 ]; then 
+        echo "good luck"
+    else
+        :
+    fi
+    i=$((i+1))
+done
