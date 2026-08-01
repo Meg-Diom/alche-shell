@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+#Displaying superstitious numbers at some possitions
+i=1
+while [ "$i" -le 20 ]; do
+    case  $i in
+        4)
+          if [ "$i" -eq 4 ]; then
+              echo "$i"
+              echo "bad luck from China"
+          fi
+        ;;
+        9)
+          if [ "$i" -eq 9 ]; then
+              echo "$i"
+              echo "bad luck from Japan"
+          fi
+        ;;
+        17)
+          if [ "$i" -eq 17 ]; then
+              echo "$i"
+              echo "bad luck from Italy"
+          fi
+        ;;
+        *)
+          echo "$i"
+        ;;
+    esac
+i=$((i+1))
+done
