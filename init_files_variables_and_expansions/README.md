@@ -1,0 +1,1 @@
+First script creates an alias, the second script greets the Linux user, the third script adds a sub-path to a path, the forth script count the number of directories in a path and the fifth script list the environment variable.
