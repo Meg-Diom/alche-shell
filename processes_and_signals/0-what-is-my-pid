@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Displaying the PID of a process
+
+ps | awk -F " " '{print $1}'
