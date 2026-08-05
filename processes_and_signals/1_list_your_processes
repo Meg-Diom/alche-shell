@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #listing all the currently runniing processes
 
-top
+ps -ef --forest
